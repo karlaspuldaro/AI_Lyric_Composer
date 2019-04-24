@@ -1,4 +1,4 @@
-# AI_Lyric_Composer
+# Metal Composer AI (using LSTM RNN)
 
 - Download lyrics data set from https://www.kaggle.com/gyani95/380000-lyrics-from-metrolyrics/version/2
 - Rename it to metroLyrics.csv
