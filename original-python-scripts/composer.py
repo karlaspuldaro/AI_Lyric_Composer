@@ -11,7 +11,7 @@ import tensorflow as tf
 tf.enable_eager_execution()
 
 # Load the data set:
-RAW_TEXT = open('lyrics.txt', encoding = 'UTF-8').read()
+RAW_TEXT = open('lyrics-ds.txt', encoding = 'UTF-8').read()
 
 # create mapping of unique chars to integers
 CHARS = sorted(list(set(RAW_TEXT)))
@@ -132,5 +132,8 @@ if __name__ == '__main__':
     else:
 
         print('\nOUTPUT:\n', generate_lyric(x, y, sys.argv[1]))
+#         # Save generated lyric to output.txt
+#         with open('../outputFile.txt', 'w',encoding='UTF-8') as filehandle:
+#             filehandle.write('%s\n' % generate_lyric(x, y, sys.argv[1]))
 
     print('END')
