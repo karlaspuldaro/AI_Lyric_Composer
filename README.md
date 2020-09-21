@@ -3,7 +3,7 @@ Artificial Intelligence Heavy Metal Songwriter built under a Long Short-term Mem
 Song lyrics originally obtained from the [Kaggle dataset](https://www.kaggle.com/gyani95/380000-lyrics-from-metrolyrics/version/2)
 
 *Note: Original full dataset no longer available.
-`lyrics-ds.txt` is a filtered dataset which includes over 1k songs from a selection of 10 artists (described in `dataprocessing.py`.
+`lyrics-ds.txt` is a filtered dataset which includes over 1k songs from a selection of 10 artists (described in `dataprocessing.py`).
 
 ---
 ## Requirements
